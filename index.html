@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+                                  
+<div class="container py-3">
+    <form id="first_form" method="post" action="">
+    <div class="from-group ">
+        <label>employeeName</label>
+        <input id="employeeName" class="form-control">
+    </div>
+    <div class="from-group">
+            <label>employeePhone</label>
+            <input id="employeePhone" class="form-control">
+        </div>
+         <div class="from-group">
+                <label>employeeAge</label>
+                <input id="employeeAge" class="form-control">
+            </div>
+            <div class="from-group">
+                    <label>employeeTitle</label>
+                    <input id="employeeTitle" class="form-control">
+                </div>
+                <button id="btnClick" class=" btn btn-danger float-right my-3" value="Submit" > add</button>
+                <button id="btnUpdate" class=" btn btn-outline-warning float-right my-3" > updata</button>
+                <div class="clearfix"></div>
+
+</div>
+</form>
+<div class="container py-3">
+        <input onkeyup="searchEmps(this.value)" placeholder="search" class="form-control my-3">
+<div class="row"  id="rowsData">
+   
+    
+</div>
+
+
+</div>
+
+
+
+                  
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome-all.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
